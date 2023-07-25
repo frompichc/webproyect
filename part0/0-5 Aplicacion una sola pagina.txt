@@ -1,0 +1,14 @@
+title 0.5 Aplicacion de una sola pagina
+
+
+Browser->Server: HTTP GET "https://studies.cs.helsinki.fi/exampleapp/notes"
+Server->Browser: HTML-Code
+
+Browser->Server: HTTP GET "https://studies.cs.helsinki.fi/exampleapp/main.css"
+Server->Browser: CSS-Code
+
+Browser->Server: HTTP GET "https://studies.cs.helsinki.fi/exampleapp/main.js"
+Server->Browser: JavaScript-Code
+
+Browser->Server: HTTP GET "https://studies.cs.helsinki.fi/exampleapp/data.json"
+Server->Browser: XML-Data

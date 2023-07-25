@@ -1,0 +1,16 @@
+title 0.4 New note
+
+Browser->Server: Send form to "https://fullstack-exampleapp.herokuapp.com/new_note"
+Server->Browser: Code HTTP 302
+
+Browser->Server: HTTP GET "https://studies.cs.helsinki.fi/exampleapp/notes"
+Server->Browser: HTML-Code
+
+Browser->Server: HTTP GET "https://studies.cs.helsinki.fi/exampleapp/main.css"
+Server->Browser: CSS-Code
+
+Browser->Server: HTTP GET "https://studies.cs.helsinki.fi/exampleapp/main.js"
+Server->Browser: JavaScript-Code
+
+Browser->Server: HTTP GET "https://studies.cs.helsinki.fi/exampleapp/data.json"
+Server->Browser: XML-Data
